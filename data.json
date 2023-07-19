@@ -1,0 +1,159 @@
+{
+  "intentDetails": {
+    "messages": [
+      {
+        "content": "Are you sure?",
+        "contentType": "PlainText"
+      }
+    ],
+    "sessionState": {
+      "dialogAction": {
+        "type": "ConfirmIntent"
+      },
+      "intent": {
+        "name": "MakeAReservation",
+        "slots": {},
+        "state": "InProgress",
+        "confirmationState": "None"
+      },
+      "sessionAttributes": {},
+      "originatingRequestId": "27206922-df8e-4d0b-9c4f-77c2fbd1a758"
+    },
+    "interpretations": [
+      {
+        "intent": {
+          "name": "MakeAReservation",
+          "slots": {},
+          "state": "InProgress",
+          "confirmationState": "None"
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.57
+        },
+        "intent": {
+          "name": "ModifyReservation",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.47
+        },
+        "intent": {
+          "name": "TicketDiscounts",
+          "slots": {}
+        }
+      },
+      {
+        "intent": {
+          "name": "FallbackIntent",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.42
+        },
+        "intent": {
+          "name": "RedeemGiftCardOrCouponOrVoucher",
+          "slots": {}
+        }
+      }
+    ],
+    "sessionId": "d76856b7-d154-4fba-9abb-85c762fdf815"
+  }
+}
+USER: make a reservation
+{
+  "qaObj": {
+    "Answer": [
+      "Your reservations may be made online, over the phone, through our online chat, and in-person at ticket booths at select locations. To make an online reservation, search by your location and the date you’d like to cruise on. Reservations can be made with most major credit cards. Reservations can also be made by phone at (888) 467-6256 or through our online chat.If you would like to pay in person, reservations must be made on location at our ticket booths which are at select locations. Please note that tickets at the booth are based on cruise availability, and we cannot guarantee that tickets are available at the booth for every cruise. Please see the City Cruises US and Canada Port Locations section of the FAQ. Full payment is required at the time of reservation.",
+      "Do you want to make a reservation?"
+    ],
+    "Suggestion": [
+      "Yes",
+      "No"
+    ]
+  }
+}
+==========
+{
+  "intentDetails": {
+    "sessionState": {
+      "dialogAction": {
+        "type": "Close"
+      },
+      "intent": {
+        "name": "MakeAReservation",
+        "slots": {},
+        "state": "ReadyForFulfillment",
+        "confirmationState": "Confirmed"
+      },
+      "sessionAttributes": {},
+      "originatingRequestId": "27206922-df8e-4d0b-9c4f-77c2fbd1a758"
+    },
+    "interpretations": [
+      {
+        "nluConfidence": {
+          "score": 1
+        },
+        "intent": {
+          "name": "MakeAReservation",
+          "slots": {},
+          "state": "ReadyForFulfillment",
+          "confirmationState": "Confirmed"
+        }
+      },
+      {
+        "intent": {
+          "name": "FallbackIntent",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.54
+        },
+        "intent": {
+          "name": "TicketDiscounts",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.43
+        },
+        "intent": {
+          "name": "RedeemGiftCardOrCouponOrVoucher",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.38
+        },
+        "intent": {
+          "name": "UseCEXRewardPoints",
+          "slots": {}
+        }
+      }
+    ],
+    "sessionId": "d76856b7-d154-4fba-9abb-85c762fdf815"
+  }
+}
+USER: yes
+{
+  "qaObj": {
+    "Answer": [
+      "Your reservations may be made online, over the phone, through our online chat, and in-person at ticket booths at select locations. To make an online reservation, search by your location and the date you’d like to cruise on. Reservations can be made with most major credit cards. Reservations can also be made by phone at (888) 467-6256 or through our online chat.If you would like to pay in person, reservations must be made on location at our ticket booths which are at select locations. Please note that tickets at the booth are based on cruise availability, and we cannot guarantee that tickets are available at the booth for every cruise. Please see the City Cruises US and Canada Port Locations section of the FAQ. Full payment is required at the time of reservation.",
+      "Do you want to make a reservation?"
+    ],
+    "Suggestion": [
+      "Yes",
+      "No"
+    ]
+  }
+}
+==========

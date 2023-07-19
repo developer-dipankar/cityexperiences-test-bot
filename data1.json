@@ -1,0 +1,257 @@
+{
+  "intentDetails": {
+    "messages": [
+      {
+        "content": "Are you sure?",
+        "contentType": "PlainText"
+      }
+    ],
+    "sessionState": {
+      "dialogAction": {
+        "type": "ConfirmIntent"
+      },
+      "intent": {
+        "name": "MakeAReservation",
+        "slots": {},
+        "state": "InProgress",
+        "confirmationState": "None"
+      },
+      "sessionAttributes": {},
+      "originatingRequestId": "cf5fc22e-109e-4dce-a7ed-8c298aed190e"
+    },
+    "interpretations": [
+      {
+        "intent": {
+          "name": "MakeAReservation",
+          "slots": {},
+          "state": "InProgress",
+          "confirmationState": "None"
+        }
+      },
+      {
+        "intent": {
+          "name": "FallbackIntent",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.48
+        },
+        "intent": {
+          "name": "CreateOrder",
+          "slots": {
+            "country": null
+          }
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.47
+        },
+        "intent": {
+          "name": "ModifyReservation",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.46
+        },
+        "intent": {
+          "name": "RedeemGiftCardOrCouponOrVoucher",
+          "slots": {}
+        }
+      }
+    ],
+    "sessionId": "325386f6-f398-4d95-8a6a-820a1beb7835"
+  }
+}
+USER: make a reservation
+{
+  "qaObj": {
+    "Answer": [
+      "Your reservations may be made online, over the phone, through our online chat, and in-person at ticket booths at select locations. To make an online reservation, search by your location and the date you’d like to cruise on. Reservations can be made with most major credit cards. Reservations can also be made by phone at (888) 467-6256 or through our online chat.If you would like to pay in person, reservations must be made on location at our ticket booths which are at select locations. Please note that tickets at the booth are based on cruise availability, and we cannot guarantee that tickets are available at the booth for every cruise. Please see the City Cruises US and Canada Port Locations section of the FAQ. Full payment is required at the time of reservation.",
+      "Do you want to make a reservation?"
+    ],
+    "Suggestion": [
+      "Yes",
+      "No"
+    ]
+  }
+}
+==========
+{
+  "intentDetails": {
+    "messages": [
+      {
+        "content": "country",
+        "contentType": "PlainText"
+      }
+    ],
+    "sessionState": {
+      "dialogAction": {
+        "type": "ElicitSlot",
+        "slotToElicit": "country"
+      },
+      "intent": {
+        "name": "CreateOrder",
+        "slots": {
+          "country": null
+        },
+        "state": "InProgress",
+        "confirmationState": "None"
+      },
+      "sessionAttributes": {},
+      "originatingRequestId": "cf5fc22e-109e-4dce-a7ed-8c298aed190e"
+    },
+    "interpretations": [
+      {
+        "nluConfidence": {
+          "score": 1
+        },
+        "intent": {
+          "name": "CreateOrder",
+          "slots": {
+            "country": null
+          },
+          "state": "InProgress",
+          "confirmationState": "None"
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 1
+        },
+        "intent": {
+          "name": "MakeAReservation",
+          "slots": {}
+        }
+      },
+      {
+        "intent": {
+          "name": "FallbackIntent",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.49
+        },
+        "intent": {
+          "name": "UseCEXRewardPoints",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.46
+        },
+        "intent": {
+          "name": "RedeemGiftCardOrCouponOrVoucher",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.44
+        },
+        "intent": {
+          "name": "TicketDiscounts",
+          "slots": {}
+        }
+      }
+    ],
+    "sessionId": "325386f6-f398-4d95-8a6a-820a1beb7835"
+  }
+}
+USER: yes
+{}
+==========
+{
+  "intentDetails": {
+    "sessionState": {
+      "dialogAction": {
+        "type": "Close"
+      },
+      "intent": {
+        "name": "CreateOrder",
+        "slots": {
+          "country": {
+            "value": {
+              "originalValue": "canada",
+              "interpretedValue": "canada",
+              "resolvedValues": [
+                "canada"
+              ]
+            }
+          }
+        },
+        "state": "ReadyForFulfillment",
+        "confirmationState": "None"
+      },
+      "sessionAttributes": {},
+      "originatingRequestId": "cf5fc22e-109e-4dce-a7ed-8c298aed190e"
+    },
+    "interpretations": [
+      {
+        "nluConfidence": {
+          "score": 1
+        },
+        "intent": {
+          "name": "CreateOrder",
+          "slots": {
+            "country": {
+              "value": {
+                "originalValue": "canada",
+                "interpretedValue": "canada",
+                "resolvedValues": [
+                  "canada"
+                ]
+              }
+            }
+          },
+          "state": "ReadyForFulfillment",
+          "confirmationState": "None"
+        }
+      },
+      {
+        "intent": {
+          "name": "FallbackIntent",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.48
+        },
+        "intent": {
+          "name": "UseCEXRewardPoints",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.47
+        },
+        "intent": {
+          "name": "PayForMyTicket",
+          "slots": {}
+        }
+      },
+      {
+        "nluConfidence": {
+          "score": 0.41
+        },
+        "intent": {
+          "name": "TicketDiscounts",
+          "slots": {}
+        }
+      }
+    ],
+    "sessionId": "325386f6-f398-4d95-8a6a-820a1beb7835"
+  }
+}
+USER: canada
+{}
+==========

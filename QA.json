@@ -1,0 +1,24 @@
+{
+    "PayForMyTicket": {
+
+    },
+    "RedeemGiftCardOrCouponOrVoucher": {
+
+    },
+    "TicketDiscounts": {
+
+    },
+    "UseCEXRewardPoints": {
+
+    },
+    "ModifyReservation": {
+
+    },
+    "MakeAReservation": {
+        "Answer": ["Your reservations may be made online, over the phone, through our online chat, and in-person at ticket booths at select locations. To make an online reservation, search by your location and the date you’d like to cruise on. Reservations can be made with most major credit cards. Reservations can also be made by phone at (888) 467-6256 or through our online chat.If you would like to pay in person, reservations must be made on location at our ticket booths which are at select locations. Please note that tickets at the booth are based on cruise availability, and we cannot guarantee that tickets are available at the booth for every cruise. Please see the City Cruises US and Canada Port Locations section of the FAQ. Full payment is required at the time of reservation.", "Do you want to make a reservation?"],
+        "Suggestion": ["Yes", "No"]
+    },
+    "FallbackIntent": {
+
+    }
+}
