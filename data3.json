@@ -1,0 +1,580 @@
+USER: manage my reservation
+BOT {
+  "qaObj": {
+    "Answer": [
+      "What is your booking Id? ex. 123456"
+    ]
+  }
+}
+scores {"scores":[{"name":"ManageMyBooking","score":0.95},{"name":"ModifyReservation","score":0.55},{"name":"MakeAReservation","score":0.5},{"name":"PayForMyTicket","score":0.42}]}
+==========
+USER: 24791497
+BOT {
+  "qaObj": {
+    "orderId": "mavlvB24791497",
+    "bookingId": "24791497",
+    "shortUrlId": null,
+    "accountingFreeze": false,
+    "assignedEventTime": null,
+    "assignedBoardingTime": null,
+    "expiration": null,
+    "payAfterEvent": null,
+    "email": "dipankar.naskar@cityexperiences.com",
+    "customerId": "13700680",
+    "contactId": "13700680",
+    "bookingNotes": null,
+    "notes": [],
+    "officeComments": [],
+    "orderStatus": "Tentative",
+    "manualOrderStatus": null,
+    "tableNumbers": null,
+    "serverName": null,
+    "isVoidedGCOrder": null,
+    "cartId": "I24791499",
+    "cartBalance": 1111.78,
+    "depositOrder": null,
+    "itineraryDeposit": null,
+    "cruiseConcierge": null,
+    "depositDueDate": null,
+    "isGroupLeaderToSharePaymentLink": null,
+    "externalFiles": null,
+    "seatMapHold": null,
+    "gcActivated": null,
+    "engravings": null,
+    "orderNotes": [
+      {
+        "id": "eventSpace",
+        "value": null,
+        "__typename": "IdValue"
+      },
+      {
+        "id": "food",
+        "value": null,
+        "__typename": "IdValue"
+      },
+      {
+        "id": "beverages",
+        "value": null,
+        "__typename": "IdValue"
+      },
+      {
+        "id": "entertainment",
+        "value": null,
+        "__typename": "IdValue"
+      },
+      {
+        "id": "addOns",
+        "value": null,
+        "__typename": "IdValue"
+      },
+      {
+        "id": "groupDemographics",
+        "value": null,
+        "__typename": "IdValue"
+      },
+      {
+        "id": "packages",
+        "value": null,
+        "__typename": "IdValue"
+      },
+      {
+        "id": "timeline",
+        "value": null,
+        "__typename": "IdValue"
+      },
+      {
+        "id": "setup",
+        "value": null,
+        "__typename": "IdValue"
+      },
+      {
+        "id": "additionContractTerms",
+        "value": null,
+        "__typename": "IdValue"
+      }
+    ],
+    "orderNotesInternal": null,
+    "nonLineItems": [],
+    "floorPlan": null,
+    "fnbOpsFile": null,
+    "flags": null,
+    "companyId": "15445029",
+    "costRateId": "1",
+    "costRate": [
+      {
+        "CostRateID": 1,
+        "CostRateName": "Default",
+        "__typename": "Costrate"
+      }
+    ],
+    "propertyId": "mavlv",
+    "agentUserId": null,
+    "sourceId": "boxoffice",
+    "siteId": null,
+    "currency": "USD",
+    "rates": {
+      "CAD": null,
+      "USD": 1,
+      "GBP": null,
+      "AUD": null,
+      "EUR": null,
+      "__typename": "OrderRates"
+    },
+    "loggedInUsername": "dipankar.naskar",
+    "showPricesOnConfirm": false,
+    "invoices": null,
+    "summary": [
+      {
+        "total": 512.78,
+        "balance": 512.78,
+        "__typename": "OrderSummary"
+      }
+    ],
+    "pricing": "fb8aa579173d0759726551dc1127fcf08fb2b6bb",
+    "couponDiscounts": [],
+    "billing": [
+      {
+        "groupName": null,
+        "parkingId": null,
+        "billingAgreeTermsConditions": null,
+        "billingPhoneAgreeTermsConditions": null,
+        "billingDateOfBirthMonth": null,
+        "billingDateOfBirthDay": null,
+        "billingDateOfBirthYear": null,
+        "billingTitle": null,
+        "firstName": "Dipankar",
+        "lastName": "Naskar",
+        "email": "dipankar.naskar@cityexperiences.com",
+        "address": null,
+        "city": null,
+        "country": "US",
+        "companyName": null,
+        "phoneNumber": null,
+        "state": "International",
+        "zip": null,
+        "salesforceInfo": null,
+        "externalId": null,
+        "vendorReferenceNumber": null,
+        "isOnboardRevenueBooking": null,
+        "billingSenderName": null,
+        "billingRecipientName": null,
+        "billingRecipientContactNumber": null,
+        "billingRecipientDestination": null,
+        "billingContentsOfPackage": null,
+        "shipping": null,
+        "shippingMultiple": null,
+        "membershipId": null,
+        "timeshareVoucher": null,
+        "__typename": "OrderBilling"
+      }
+    ],
+    "items": {
+      "tickets": [
+        {
+          "bookingTypeId": 1108456,
+          "date": "08/05/2023",
+          "linkedTourEventIds": null,
+          "qtys": [
+            {
+              "qty": 1,
+              "ticketId": 133282,
+              "vehicleId": null,
+              "vehicleMake": null,
+              "vehicleModel": null,
+              "vehicleLengthFt": null,
+              "appliedItems": null,
+              "vehicleTrim": null,
+              "vehicleYear": null,
+              "price": -86.22,
+              "itemName": null,
+              "groupName": null,
+              "attendees": [],
+              "__typename": "TicketQty"
+            },
+            {
+              "qty": 1,
+              "ticketId": 130690,
+              "vehicleId": null,
+              "vehicleMake": null,
+              "vehicleModel": null,
+              "vehicleLengthFt": null,
+              "appliedItems": null,
+              "vehicleTrim": null,
+              "vehicleYear": null,
+              "price": null,
+              "itemName": null,
+              "groupName": null,
+              "attendees": [
+                {
+                  "firstName": "Dipankar",
+                  "lastName": null,
+                  "weight": "100",
+                  "height": null,
+                  "dob": null,
+                  "attendeePhoneNumber": null,
+                  "attendeePhoneCountry": null,
+                  "attendeeEmail": null,
+                  "attendeeAge": null,
+                  "attendeeShirtSize": null,
+                  "attendeeShoeSize": null,
+                  "attendeeOtherTourPlans": null,
+                  "attendeeGender": null,
+                  "attendeeNationality": null,
+                  "attendeePassportNumber": null,
+                  "attendeePassportExpirationDate": null,
+                  "vehicleRegistration": null,
+                  "registrationExpiration": null,
+                  "licenseNumber": null,
+                  "idExpiration": null,
+                  "timeshareVoucher": null,
+                  "__typename": "AttendeesDetails"
+                }
+              ],
+              "__typename": "TicketQty"
+            }
+          ],
+          "compQtys": null,
+          "timedTicketTypeId": 12113714,
+          "tourId": null,
+          "numberOfGuests": null,
+          "cruiseShipId": null,
+          "editedBy": null,
+          "editedOn": null,
+          "productNotes": "{}",
+          "deckId": null,
+          "__typename": "TicketOrder"
+        }
+      ],
+      "giftcards": null,
+      "giftMembership": null,
+      "__typename": "OrderItems"
+    },
+    "refundToNewCC": null,
+    "coordinatorName": null,
+    "captainName": null,
+    "foodAndBeverageManager": null,
+    "accountManager": null,
+    "customPrintTicketsStr": null,
+    "proposal": null,
+    "oldProposals": null,
+    "chargeback": [],
+    "company": {
+      "propertyId": "mavlv",
+      "costRateId": 1,
+      "additionalCostRateIds": [],
+      "name": "1 Day in Vegas",
+      "customerId": "15445029",
+      "paymentTerms": "Pay in Advance",
+      "isHideRefund": false,
+      "commissionTemplateId": 1715,
+      "settings": [
+        {
+          "id": "companyType",
+          "value": "Net",
+          "__typename": "IdValue"
+        },
+        {
+          "id": "collectVouchers",
+          "value": "false",
+          "__typename": "IdValue"
+        },
+        {
+          "id": "accountStatus",
+          "value": "active",
+          "__typename": "IdValue"
+        },
+        {
+          "id": "thirdPartyDistributor",
+          "value": "false",
+          "__typename": "IdValue"
+        },
+        {
+          "id": "internalBoxOfficeNotes",
+          "value": "CC on File",
+          "__typename": "IdValue"
+        },
+        {
+          "id": "billCycle",
+          "value": "bi",
+          "__typename": "IdValue"
+        }
+      ],
+      "__typename": "Company"
+    },
+    "confirmation": {
+      "utilizedGroupTicketTimeLine": null,
+      "availableGroupTickets": null,
+      "boardingGroupId": "vid:18baad45-802c-465e-bcaf-70f811784a9a:st:1691244000:bid:1108456:tid:12113714:$",
+      "boardingGroupName": "Boarding Group 7",
+      "hashProductsId": "2231daa7139df2356027ea0afe88c87d08416332",
+      "vendorCompanyId": null,
+      "agentName": "Dipankar Naskar",
+      "vendorAccountName": null,
+      "eventStatus": "confirmed",
+      "latestTransactionId": "1a31293b-99c9-4c3f-8865-0f0b8c1164d0",
+      "eventRank": null,
+      "eventType": "sightseeing",
+      "commissionIncentive": {
+        "commissionAmount": null,
+        "commissionPercentage": 18,
+        "__typename": "CommissionIncentive"
+      },
+      "peakHours": null,
+      "insuranceNotApplicable": null,
+      "returnTrip": null,
+      "ip": "106.212.151.232",
+      "voucherURL": null,
+      "boardTime": null,
+      "boardingTime": "6:15 AM",
+      "departTime": null,
+      "dockTime": null,
+      "barcodesReady": true,
+      "barcodes": [
+        {
+          "productId": 130690,
+          "productName": "Passenger Seat",
+          "firstName": null,
+          "lastName": null,
+          "email": null,
+          "assignedToUser": null,
+          "individualWaiversSent": null,
+          "ticketNumber": "C2D-NsSebTHT-2aNe9zyo-4r7CpRY-7AYtV5QfZ",
+          "active": true,
+          "qr": "https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=C2D-NsSebTHT-2aNe9zyo-4r7CpRY-7AYtV5QfZ&chld=L%7C0",
+          "scanned": false,
+          "fullyScanned": null,
+          "count": 0,
+          "lastScanTime": "false",
+          "timeline": [],
+          "__typename": "ConfirmationBarcode"
+        }
+      ],
+      "couponsPurchased": null,
+      "thirdPartyInfo": null,
+      "invitationLink": "https://tix.maverickhelicopter.com/j/mavlv/5ec5bc269abe77d718e45bfed7c2da52f44ca44239703114",
+      "purchaseDate": "07/27/2023",
+      "timeOfPurchase": "5:18 AM",
+      "tourDate": "08/05/2023",
+      "QRCode": "data:image/gif;base64,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",
+      "baseCurrency": "USD",
+      "fullName": "Dipankar Naskar",
+      "tourName": "Wind Dancer ",
+      "tourTimeStart": "7:00:00",
+      "tourTimeEnd": "9:40:00",
+      "couponCode": null,
+      "discount": "0",
+      "subtotal": "479",
+      "gcTotal": null,
+      "total": "512.78",
+      "insurance": "0",
+      "charity": null,
+      "tax": "33.78",
+      "bookingId": "24791497",
+      "address": null,
+      "city": null,
+      "state": "International",
+      "zip": null,
+      "country": "US",
+      "email": "dipankar.naskar@cityexperiences.com",
+      "phoneNumber": null,
+      "orderId": "24791497",
+      "totalInUsedCurrency": "512.78",
+      "usedCurrency": "USD",
+      "invoiceId": null,
+      "purchaseOrderNo": null,
+      "invoiceInfoExists": null,
+      "lineItems": [
+        {
+          "ticketId": 133282,
+          "attendees": [],
+          "__typename": "ReservationQty"
+        },
+        {
+          "ticketId": 130690,
+          "attendees": [
+            {
+              "firstName": "Dipankar",
+              "lastName": null,
+              "weight": "100",
+              "height": null,
+              "dob": null,
+              "attendeePhoneNumber": null,
+              "attendeePhoneCountry": null,
+              "attendeeEmail": null,
+              "attendeeAge": null,
+              "attendeeShirtSize": null,
+              "attendeeShoeSize": null,
+              "attendeeOtherTourPlans": null,
+              "attendeeGender": null,
+              "attendeeNationality": null,
+              "attendeePassportNumber": null,
+              "attendeePassportExpirationDate": null,
+              "vehicleRegistration": null,
+              "registrationExpiration": null,
+              "licenseNumber": null,
+              "idExpiration": null,
+              "__typename": "AttendeesDetails"
+            }
+          ],
+          "__typename": "ReservationQty"
+        }
+      ],
+      "lineItemsDesc": [
+        {
+          "attachments": [],
+          "desc": "Passenger Seat  – $479.00 x 1 = $479.00",
+          "maxScans": null,
+          "ticketDesc": "Passenger Seat",
+          "ticketPrice": "479",
+          "defaultCostRatePrice": null,
+          "qty": "1",
+          "compType": null,
+          "isInsurance": null,
+          "isTicket": true,
+          "isEnhancement": false,
+          "isCelebrationPackageEnh": false,
+          "isBeverageEnh": false,
+          "isFoodEnh": false,
+          "isMerchEnh": false,
+          "isYachtEnh": false,
+          "isDonationEnh": null,
+          "isDiscountAdj": null,
+          "discountType": null,
+          "discountAmount": null,
+          "couponAppliedItems": null,
+          "isShippingOption": null,
+          "total": "479.00",
+          "ticketId": 130690,
+          "packageInfo": null,
+          "isPhysicalGiftCard": null,
+          "printerStation": null,
+          "ecTicketTypes": "Adult",
+          "passType": null,
+          "__typename": "LineItemsDesc"
+        }
+      ],
+      "udfs": [],
+      "timeline": [
+        {
+          "description": "Order placed via boxoffice (nodeId: 12)<br /> by Dipankar Naskar.<br/> Company Name:1 Day in Vegas<br/>1 (id:130690), Passenger Seat - $479.00,<br/>1 (id:133282), Deposit - -$86.22<br />Wind Dancer  08/05/2023 7:00 AM",
+          "type": "orderCreated",
+          "timestamp": "2023-07-27T05:18:38-07:00",
+          "__typename": "TimelineRecord"
+        },
+        {
+          "description": "Order Status change to Tentative automatically <br /> by Dipankar Naskar.",
+          "type": "statusChange",
+          "timestamp": "2023-07-27T05:18:39-07:00",
+          "__typename": "TimelineRecord"
+        }
+      ],
+      "taxes": [
+        {
+          "name": "Nevada Sales Tax",
+          "amount": 0,
+          "__typename": "TaxSummary"
+        },
+        {
+          "name": "Fees",
+          "amount": 120,
+          "__typename": "TaxSummary"
+        },
+        {
+          "name": "Supplemental Fuel Surcharge",
+          "amount": 0,
+          "__typename": "TaxSummary"
+        },
+        {
+          "name": "Deposit",
+          "amount": -86.22,
+          "__typename": "TaxSummary"
+        }
+      ],
+      "orderFees": null,
+      "orderModificationFee": null,
+      "shippingOption": null,
+      "payments": [],
+      "tourAddress": "6075 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
+      "tourCity": "las vegas",
+      "tourState": "NV",
+      "tourCountry": "US",
+      "tourLat": "36.0787154",
+      "tourLong": "-115.1720454",
+      "giftcards": null,
+      "allowRefunds": null,
+      "hideQrCode": null,
+      "hideTransferOrderInSelfServiceSetting": null,
+      "hideAddTicketsInSelfServiceSetting": null,
+      "hideRefundInSelfServiceSetting": null,
+      "cutoffTimeToEditSpecialRequestsSelfServiceSetting": null,
+      "collectAttendeePhoneSetting": null,
+      "collectAttendeeEmailSetting": null,
+      "privateTourRequest": null,
+      "publicTourRequest": null,
+      "hideEventTimeSetting": null,
+      "hideTourDateTimeSetting": null,
+      "hideEventEndTimeSetting": null,
+      "sendBalanceDueReminderTourSetting": null,
+      "collectAttendeePassportInfoSetting": null,
+      "collectAttendeeGenderSetting": null,
+      "sendCovidReminderEmail": true,
+      "collectChildAttendeeAgeGenderSetting": null,
+      "collectAttendeeAgeSetting": null,
+      "collectAttendeeShirtSizeSetting": null,
+      "enableSigingWaiversForBookingSetting": null,
+      "enableSigningIndividualBarcodeWaiversForBookingSetting": null,
+      "collectAttendeeShoeSizeSetting": null,
+      "collectAttendeeOtherTourPlansSetting": null,
+      "allowUseToTicketsForPayAfterEventSetting": null,
+      "orderInvoicedCoupons": null,
+      "fromStopId": null,
+      "toStopId": null,
+      "departure": null,
+      "destination": null,
+      "__typename": "OrderConfirmation"
+    },
+    "passes": [],
+    "relatedOrders": [],
+    "loyaltyPointsLine": {
+      "points": 0,
+      "__typename": "LoyaltyPointsLine"
+    },
+    "photos": null,
+    "tourQuestions": {
+      "specialRequests": null,
+      "departureAirline": null,
+      "departureFlightNumber": null,
+      "menuDietaryNotes": null,
+      "departureFlightTime": null,
+      "dropOffLocation": null,
+      "attendeeAlternateTourTimePreference": null,
+      "departurePickupStreetNumber": null,
+      "departurePickupLocation": "Alexis Park",
+      "arrivalPickupLocation": null,
+      "hotelPickup": null,
+      "hotelPickupOther": null,
+      "getPetInfo": null,
+      "petInfoBreed": null,
+      "petInfoSize": null,
+      "petInfoTotal": null,
+      "petInfoNotes": null,
+      "isBikePickUp": null,
+      "isOneWayTramInfo": null,
+      "tramDate": null,
+      "bikesTotal": null,
+      "attendeeGradeLevelInfo": null,
+      "customerLanguage": null,
+      "howDidYouHearAboutUs": null,
+      "howDidYouHearAboutUsOnCompanyWebsite": null,
+      "schoolPrivateTourRequestQuestions": null,
+      "generalPrivateTourRequestQuestions": null,
+      "__typename": "TourQuestions"
+    },
+    "vendorDetails": null,
+    "itineraryNotes": "",
+    "addCardPayLater": null,
+    "__typename": "Order"
+  }
+}
+scores {"scores":[{"name":"ManageMyBooking","score":1},{"name":"RedeemGiftCardOrCouponOrVoucher","score":0.54},{"name":"TicketDiscounts","score":0.46},{"name":"CreateOrder","score":0.42}]}
+==========

@@ -6,7 +6,7 @@
 
     },
     "TicketDiscounts": {
-
+        "Answer": ["Child Discounts: Children 4 to 12 may cruise at a different rate than Adults depending on cruise type and port location. Children under 4 cruise free in most locations. Military and Senior Discounts: Military and Senior discounts are offered on most of our cruises. Select the senior or military ticket at checkout for your online reservation to secure this rate if available. Reservations can also be made by phone with an Excursions Specialist at 800-459-8105 or through online chat"]
     },
     "UseCEXRewardPoints": {
 
@@ -14,11 +14,35 @@
     "ModifyReservation": {
 
     },
-    "MakeAReservation": {
+    "MakeAReservation_None": {
         "Answer": ["Your reservations may be made online, over the phone, through our online chat, and in-person at ticket booths at select locations. To make an online reservation, search by your location and the date you’d like to cruise on. Reservations can be made with most major credit cards. Reservations can also be made by phone at (888) 467-6256 or through our online chat.If you would like to pay in person, reservations must be made on location at our ticket booths which are at select locations. Please note that tickets at the booth are based on cruise availability, and we cannot guarantee that tickets are available at the booth for every cruise. Please see the City Cruises US and Canada Port Locations section of the FAQ. Full payment is required at the time of reservation.", "Do you want to make a reservation?"],
-        "Suggestion": ["Yes", "No"]
+        "Options": ["Yes", "No"]
     },
     "FallbackIntent": {
 
+    },
+    "CreateOrder_slots_country_null": {
+        "Answer": ["In which country do you wanna visit?"]
+    },
+    "CreateOrder_slots_city_null": {
+        "Answer": [
+            "Which city do you wanna go? Ex. Ontario, Toronto etc.",
+            "Or, you can choose top experiences from Canada"
+        ]
+    },
+    "CreateOrder_slots_top_experiences_statueofliberty": {
+        "Answer": ["https://www.cityexperiences.com/new-york/city-cruises/statue/"]
+    },
+    "CreateOrder_slots_top_experiences_alcatraz": {
+        "Answer": ["https://www.cityexperiences.com/san-francisco/city-cruises/alcatraz/"]
+    },
+    "CreateOrder_slots_city_toronto": {
+        "Answer": ["https://www.cityexperiences.com/toronto/",
+        "Or you can choose our popular tours"
+        ],
+        "Options": ["statue of liberty", "Alcatraz"]
+    },
+    "ManageMyBooking_slots_bookingId_null": {
+        "Answer": ["What is your booking Id? ex. 123456"]
     }
 }
